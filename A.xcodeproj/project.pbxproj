@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,9 @@
 		3CFDAD142356C7C700223979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CFDAD132356C7C700223979 /* Assets.xcassets */; };
 		3CFDAD172356C7C700223979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFDAD152356C7C700223979 /* LaunchScreen.storyboard */; };
 		3CFDAD1A2356C7C700223979 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDAD192356C7C700223979 /* main.m */; };
-		3CFDAD492357050000223979 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDAD482357050000223979 /* Target_A.m */; };
-		3CFDAD52235705B900223979 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFDAD51235705B900223979 /* AViewController.m */; };
 		B938B3E4601DACE7F62CB2CA /* Pods_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8EEBD3BDD8F42F3E7DDA66 /* Pods_A.framework */; };
+		D124CA752357368500DD0628 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = D124CA712357368500DD0628 /* Target_A.m */; };
+		D124CA762357368500DD0628 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D124CA722357368500DD0628 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +30,12 @@
 		3CFDAD162356C7C700223979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CFDAD182356C7C700223979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CFDAD192356C7C700223979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3CFDAD472357050000223979 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
-		3CFDAD482357050000223979 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
-		3CFDAD50235705B900223979 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		3CFDAD51235705B900223979 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		996B0F3B8006851F0DCCC6F1 /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
 		AD8EEBD3BDD8F42F3E7DDA66 /* Pods_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D124CA712357368500DD0628 /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		D124CA722357368500DD0628 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		D124CA732357368500DD0628 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		D124CA742357368500DD0628 /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,6 @@
 				0BF62ABD4F8DCD6D015BD808 /* Pods-A.debug.xcconfig */,
 				996B0F3B8006851F0DCCC6F1 /* Pods-A.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -89,7 +88,7 @@
 		3CFDAD092356C7C600223979 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				3CFDAD46235704A400223979 /* Targets */,
+				D124CA6F2357368500DD0628 /* A */,
 				3CFDAD0A2356C7C600223979 /* AppDelegate.h */,
 				3CFDAD0B2356C7C600223979 /* AppDelegate.m */,
 				3CFDAD0D2356C7C600223979 /* ViewController.h */,
@@ -103,13 +102,21 @@
 			path = A;
 			sourceTree = "<group>";
 		};
-		3CFDAD46235704A400223979 /* Targets */ = {
+		D124CA6F2357368500DD0628 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				3CFDAD472357050000223979 /* Target_A.h */,
-				3CFDAD482357050000223979 /* Target_A.m */,
-				3CFDAD50235705B900223979 /* AViewController.h */,
-				3CFDAD51235705B900223979 /* AViewController.m */,
+				D124CA702357368500DD0628 /* Targets */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		D124CA702357368500DD0628 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				D124CA712357368500DD0628 /* Target_A.m */,
+				D124CA722357368500DD0628 /* AViewController.m */,
+				D124CA732357368500DD0628 /* AViewController.h */,
+				D124CA742357368500DD0628 /* Target_A.h */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -228,8 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CFDAD492357050000223979 /* Target_A.m in Sources */,
-				3CFDAD52235705B900223979 /* AViewController.m in Sources */,
+				D124CA752357368500DD0628 /* Target_A.m in Sources */,
+				D124CA762357368500DD0628 /* AViewController.m in Sources */,
 				3CFDAD0F2356C7C600223979 /* ViewController.m in Sources */,
 				3CFDAD1A2356C7C700223979 /* main.m in Sources */,
 				3CFDAD0C2356C7C600223979 /* AppDelegate.m in Sources */,
