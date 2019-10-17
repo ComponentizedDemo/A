@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-  s.homepage         = 'https://github.com/w-qihang/A'
+  s.homepage         = 'https://github.com/ComponentizedDemo/PrivatePods'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'w-qihang' => '854883819@qq.com' }
-  s.source           = { :git => 'https://github.com/w-qihang/A.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ComponentizedDemo/PrivatePods.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
