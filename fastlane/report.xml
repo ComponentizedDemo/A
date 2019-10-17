@@ -5,64 +5,69 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: import_from_git" time="25.889472">
+      <testcase classname="fastlane.lanes" name="00: import_from_git" time="4.406934">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: git_pull" time="18.531476">
+      <testcase classname="fastlane.lanes" name="01: git_pull" time="52.199937">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: ensure_git_branch" time="0.012474">
+      <testcase classname="fastlane.lanes" name="02: ensure_git_branch" time="0.008695">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: version_bump_podspec" time="0.003615">
+      <testcase classname="fastlane.lanes" name="03: version_bump_podspec" time="0.002314">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: git_add" time="0.017469">
+      <testcase classname="fastlane.lanes" name="04: git_add" time="0.01313">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.080709">
+      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.031933">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="10.933107">
+      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="18.236607">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.009104">
+      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.009183">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: add_git_tag" time="0.014268">
+      <testcase classname="fastlane.lanes" name="08: remove_git_tag" time="11.590401">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: push_git_tags" time="12.147447">
+      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.015814">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: pod_lib_lint" time="9.73674">
+      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="10.665162">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: pod_push" time="7.946097">
+      <testcase classname="fastlane.lanes" name="11: pod_lib_lint" time="11.501214">
         
-          <failure message="/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:235:in `block in execute_action'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;../../../../../../../var/folders/lz/bvqqgs6s4vg3mnlcz1gg2hh00000gn/T/fl_clone20191017-6698-egeps5/fastlane-files/fastlane/Fastfile:43:in `block in parsing_binding'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:349:in `run'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod repo push ComponentizedPods 'A.podspec' --allow-warnings' was 1 instead of 0.&#10;&#10;Validating spec&#10; -&gt; A -&gt; A (0.0.1)&#10;    - WARN  | summary: The summary is not meaningful.&#10;    - ERROR | [iOS] unknown: Encountered an unknown error ([!] /usr/local/bin/git clone https://github.com/ComponentizedDemo/PrivatePods.git /var/folders/lz/bvqqgs6s4vg3mnlcz1gg2hh00000gn/T/d20191017-6845-1ivwmg7 --template= --single-branch --depth 1 --branch 0.0.1&#10;&#10;正克隆到 '/var/folders/lz/bvqqgs6s4vg3mnlcz1gg2hh00000gn/T/d20191017-6845-1ivwmg7'...&#10;fatal: 远程分支 0.0.1 在上游 origin 未发现&#10;) during validation.&#10;&#10;[!] The `A.podspec` specification does not validate.&#10;" />
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="12: pod_push" time="9.511862">
+        
+          <failure message="/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:235:in `block in execute_action'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;../../../../../../../var/folders/lz/bvqqgs6s4vg3mnlcz1gg2hh00000gn/T/fl_clone20191017-7219-1tajz17/fastlane-files/fastlane/Fastfile:43:in `block in parsing_binding'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:349:in `run'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/usr/local/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod repo push ComponentizedPods 'A.podspec' --allow-warnings' was 1 instead of 0.&#10;&#10;Validating spec&#10; -&gt; A -&gt; A (1.0.0)&#10;    - WARN  | summary: The summary is not meaningful.&#10;    - ERROR | [iOS] unknown: Encountered an unknown error ([!] /usr/local/bin/git clone https://github.com/ComponentizedDemo/PrivatePods.git /var/folders/lz/bvqqgs6s4vg3mnlcz1gg2hh00000gn/T/d20191017-7369-15lz2t7 --template= --single-branch --depth 1 --branch 1.0.0&#10;&#10;正克隆到 '/var/folders/lz/bvqqgs6s4vg3mnlcz1gg2hh00000gn/T/d20191017-7369-15lz2t7'...&#10;warning: 不能发现要克隆的远程分支 1.0.0。&#10;fatal: 远程分支 1.0.0 在上游 origin 未发现&#10;) during validation.&#10;&#10;[!] The `A.podspec` specification does not validate.&#10;" />
         
       </testcase>
     
