@@ -10,6 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+//Target-Action 提供调用
 @interface Target_A : NSObject
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params;
