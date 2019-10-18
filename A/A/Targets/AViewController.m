@@ -7,7 +7,7 @@
 //
 
 #import "AViewController.h"
-//#import <B_Category/CTMediator+B.h>
+#import <B_Category/CTMediator+B.h>
 
 @interface AViewController ()
 
@@ -18,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    UIViewController *viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello, world!"];
-//    [self.navigationController pushViewController:viewController animated:YES];
+    UIViewController *viewController = [[CTMediator sharedInstance] B_viewControllerWithContentText:@"hello, world!"];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 /*
