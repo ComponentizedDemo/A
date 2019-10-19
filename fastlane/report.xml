@@ -5,64 +5,69 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: import_from_git" time="10.708088">
+      <testcase classname="fastlane.lanes" name="00: import_from_git" time="6.588048">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: git_pull" time="26.627516">
+      <testcase classname="fastlane.lanes" name="01: git_pull" time="11.001924">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: ensure_git_branch" time="0.009035">
+      <testcase classname="fastlane.lanes" name="02: ensure_git_branch" time="0.012148">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: version_bump_podspec" time="0.002494">
+      <testcase classname="fastlane.lanes" name="03: version_bump_podspec" time="0.002933">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: git_add" time="0.011307">
+      <testcase classname="fastlane.lanes" name="04: git_add" time="0.014058">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.033232">
+      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.039016">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="12.429949">
+      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="8.095225">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.009958">
+      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.010205">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: remove_git_tag" time="8.719857">
+      <testcase classname="fastlane.lanes" name="08: remove_git_tag" time="7.553297">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.021457">
+      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.016194">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="12.238857">
+      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="10.353975">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: pod_lib_lint" time="308.226672">
+      <testcase classname="fastlane.lanes" name="11: pod_lib_lint" time="8.64683">
         
-          <failure message="/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:235:in `block in execute_action'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;../../../../../../../var/folders/lz/bvqqgs6s4vg3mnlcz1gg2hh00000gn/T/fl_clone20191018-24509-1x2tmj3/fastlane-files/fastlane/Fastfile:41:in `block in parsing_binding'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:349:in `run'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod lib lint --allow-warnings' was 1 instead of 0.&#10;&#10; -&gt; A -&gt; A (1.0.1)&#10;    - WARN  | summary: The summary is not meaningful.&#10;    - ERROR | [iOS] unknown: Encountered an unknown error (CDN: trunk URL couldn't be downloaded: https://cdn.cocoapods.org/all_pods_versions_9_6_f.txt, error: execution expired) during validation.&#10;&#10;[!] A did not pass validation, due to 1 error.&#10;You can use the `--no-clean` option to inspect any issue.&#10;" />
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="12: pod_push" time="12.950331">
+        
+          <failure message="/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:235:in `block in execute_action'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;../../../../../../../var/folders/lz/bvqqgs6s4vg3mnlcz1gg2hh00000gn/T/fl_clone20191019-2181-10x2fup/fastlane-files/fastlane/Fastfile:43:in `block in parsing_binding'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:349:in `run'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod repo push ComponentizedPods 'A.podspec' --allow-warnings' was 1 instead of 0.&#10;&#10;Validating spec&#10; -&gt; A -&gt; A (1.0.1)&#10;    - WARN  | summary: The summary is not meaningful.&#10;    - NOTE  | xcodebuild:  note: Using new build system&#10;    - NOTE  | [iOS] xcodebuild:  note: Planning build&#10;    - NOTE  | [iOS] xcodebuild:  note: Constructing build description&#10;    - NOTE  | [iOS] xcodebuild:  warning: Skipping code signing because the target does not have an Info.plist file. (in target 'App')&#10;&#10;[!] The repo `ComponentizedPods` at `../../../../.cocoapods/repos/ComponentizedPods` is not clean&#10;&#10;[!] Found multiple specifications for `B_Category (1.1)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/9/6/f/B_Category/1.1/B_Category.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/9/6/f/B_Category/1.1/B_Category.podspec.json&#10;&#10;[!] Found multiple specifications for `B_Category (1.0)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/9/6/f/B_Category/1.0/B_Category.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/9/6/f/B_Category/1.0/B_Category.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (25)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/25/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/25/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (24)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/24/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/24/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (22)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/22/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/22/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (21)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/21/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/21/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (20)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/20/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/20/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (19)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/19/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/19/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (18)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/18/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/18/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (16)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/16/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/16/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (15)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/15/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/15/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (13)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/13/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/13/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (12)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/12/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/12/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (6)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/6/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/6/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (0.0.5)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/0.0.5/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/0.0.5/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (0.0.4)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/0.0.4/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/0.0.4/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (0.0.3)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/0.0.3/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/0.0.3/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (0.0.2)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/0.0.2/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/0.0.2/CTMediator.podspec.json&#10;&#10;[!] Found multiple specifications for `CTMediator (0.0.1)`:&#10;- /Users/wangqihang/.cocoapods/repos/master/Specs/6/8/3/CTMediator/0.0.1/CTMediator.podspec.json&#10;- /Users/wangqihang/.cocoapods/repos/trunk/Specs/6/8/3/CTMediator/0.0.1/CTMediator.podspec.json&#10;" />
         
       </testcase>
     
