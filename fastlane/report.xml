@@ -5,62 +5,64 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: import_from_git" time="4.646113">
+      <testcase classname="fastlane.lanes" name="00: import_from_git" time="10.708088">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: git_pull" time="14.242731">
+      <testcase classname="fastlane.lanes" name="01: git_pull" time="26.627516">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: ensure_git_branch" time="0.010756">
+      <testcase classname="fastlane.lanes" name="02: ensure_git_branch" time="0.009035">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: version_bump_podspec" time="0.002879">
+      <testcase classname="fastlane.lanes" name="03: version_bump_podspec" time="0.002494">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: git_add" time="0.015332">
+      <testcase classname="fastlane.lanes" name="04: git_add" time="0.011307">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.044336">
+      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.033232">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="17.292668">
+      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="12.429949">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.013414">
+      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.009958">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: remove_git_tag" time="14.319507">
+      <testcase classname="fastlane.lanes" name="08: remove_git_tag" time="8.719857">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.023909">
+      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.021457">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="15.041569">
+      <testcase classname="fastlane.lanes" name="10: push_git_tags" time="12.238857">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: pod_lib_lint" time="216.610438">
+      <testcase classname="fastlane.lanes" name="11: pod_lib_lint" time="308.226672">
+        
+          <failure message="/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:235:in `block in execute_action'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;../../../../../../../var/folders/lz/bvqqgs6s4vg3mnlcz1gg2hh00000gn/T/fl_clone20191018-24509-1x2tmj3/fastlane-files/fastlane/Fastfile:41:in `block in parsing_binding'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:349:in `run'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/Users/wangqihang/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/fastlane-2.134.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod lib lint --allow-warnings' was 1 instead of 0.&#10;&#10; -&gt; A -&gt; A (1.0.1)&#10;    - WARN  | summary: The summary is not meaningful.&#10;    - ERROR | [iOS] unknown: Encountered an unknown error (CDN: trunk URL couldn't be downloaded: https://cdn.cocoapods.org/all_pods_versions_9_6_f.txt, error: execution expired) during validation.&#10;&#10;[!] A did not pass validation, due to 1 error.&#10;You can use the `--no-clean` option to inspect any issue.&#10;" />
         
       </testcase>
     
